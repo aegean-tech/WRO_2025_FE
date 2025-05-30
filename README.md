@@ -2,8 +2,8 @@
 Our robot has 3 floors that are independent from each other and each one has a 
 unique functionality. These floors called “Lower Part”, “Middle Part” and “Upper Part”. 
 For the floors we used plexi material. In this section we are going to illustrate these 
-parts and their functionalities. The general of the robot length is ….. and our robots 
-width is …. . Also our robot weighs …. and passes the rule.
+parts and their functionalities. The general of the robot length is 25 and our robots 
+width is 18. Also our robot weighs 1320g and passes the rule.
 
  
 ## 1. Lower Part Of the Robot 
@@ -14,14 +14,14 @@ section is designed to provide structural stability while ensuring that the
 components responsible for motion are securely housed and properly aligned 
 with the rest of the robot’s framework. 
 Our drive system is built around two yellow rubber wheels, each with a 
-diameter of 65mm and a weight of 38 grams (photo-1). These wheels are 
+diameter of 65mm and a weight of 38 grams. These wheels are 
 carefully selected for their balance between traction and size, making them 
 suitable for both speed and maneuverability on different surfaces. Both 
 wheels are mounted onto a single shaft, allowing synchronized rotation, which 
 is crucial for maintaining directional stability during forward or backward 
 movement. 
 
-The motor we use is a 12V, 35mm, 960 RPM DC Gearmotor (photo-2), 
+The motor we use is a 12V, 35mm, 960 RPM DC Gearmotor, 
 chosen for its balance of torque and speed. Its built-in gearbox allows us to 
 harness high torque at a reasonable rotation speed, which is essential for 
 moving the robot with both force and control, especially when carrying 
@@ -29,7 +29,7 @@ additional components on the upper floors. This motor is mounted securely to
 the chassis using a custom bracket to prevent vibration and misalignment, 
 which could affect the gear connection and wheel performance. 
 
-We use a Profuse LiPo battery to power our motor controller (photo-4). It 
+We use a Profuse LiPo battery to power our motor controller. It 
 provides stable and sufficient energy for the drive system. An XT60 
 connector is attached to ensure a secure and efficient power connection with 
 minimal loss. 
@@ -41,7 +41,7 @@ control components that serve as the brain and sensory hub of the robot. This
 section includes the microcontroller, steering servo, main power switch, 
 and ultrasonic sensors, all strategically placed for optimal performance and 
 accessibility during maintenance or upgrades. 
-At the heart of this layer lies the Raspberry Pi 5 with 8GB RAM (photo-5), 
+At the heart of this layer lies the Raspberry Pi 5 with 8GB RAM, 
 which functions as the robot’s main microcontroller. The Raspberry Pi is 
 responsible for executing all high-level software operations, such as 
 processing sensor inputs, controlling the movement systems, handling 
